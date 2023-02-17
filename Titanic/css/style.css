@@ -1,0 +1,130 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Alata', sans-serif;
+    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Arizonia', cursive;
+    font-weight: 400;
+
+}
+.header{
+    background-color: #131249;
+    
+}
+
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;   
+}
+
+.menu{
+    margin-left: auto;
+}
+
+.menu__list{
+    display: flex;   
+}
+
+.menu__list-item + .menu__list-item{
+    margin-left: 32px;
+}
+
+.menu__list-link{
+    font-family: 'Alata';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.header__sign{
+    margin-left: 160px;
+}
+
+.header__sign{
+    font-family: 'Alata';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.header__sign{
+    margin-right: 33px;
+}
+
+.header__border{
+    background-color: #C84500;
+    height: 24px;
+}
+
+/* --------------------------------------------------------------------- */
+
+.top{
+    background-image: url('../img/top/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    height: 100vh;
+    padding-top: 1px;
+    
+}
+
+.top__title h1{
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 65px;
+    text-transform: capitalize;
+    color: #131249;
+    max-width: 616px;
+    padding-bottom: 16px;
+}
+
+.top__title p{
+    font-family: 'Alata';
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 23px;
+    text-align: justify;
+    color: #131249;
+    max-width: 535px;
+    padding-bottom: 35px;
+}
+
+.top__btn{
+    font-family: 'Alata';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #C84500;
+    border-radius: 10px;
+    padding: 10px 42px;
+    border: none;
+    margin-left: 190px;
+}
+
+.top__inner{
+   display: flex;
+   justify-content: flex-end;
+   padding-top: 300px;
+}
+
+.top__title{
+    
+}
