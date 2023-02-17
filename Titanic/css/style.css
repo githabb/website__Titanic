@@ -9,11 +9,10 @@ body{
     font-family: 'Alfa Slab One', cursive;
     font-family: 'Arizonia', cursive;
     font-weight: 400;
-
 }
+
 .header{
-    background-color: #131249;
-    
+    background-color: #131249;  
 }
 
 .container{
@@ -71,16 +70,14 @@ body{
     height: 24px;
 }
 
-/* --------------------------------------------------------------------- */
-
+/* -----------------top---------------------------------------------------- */
 .top{
     background-image: url('../img/top/bg.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom center;
     height: 100vh;
-    padding-top: 1px;
-    
+    padding-top: 1px; 
 }
 
 .top__title h1{
@@ -123,8 +120,4 @@ body{
    display: flex;
    justify-content: flex-end;
    padding-top: 300px;
-}
-
-.top__title{
-    
 }
